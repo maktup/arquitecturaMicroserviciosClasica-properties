@@ -2,8 +2,7 @@ ws.nombre.servicio=MICROSERVICIO [discovery-server]
 server.port=8061
 
 #CONFIGURACION: 'EUREKA SERVER':
-#eureka.client.service-url.defaultZone=http://arquitectura.microservicios.clasica.discovery-server:8061/eureka
-eureka.client.serviceUrl.defaultZone=http://${spring.eureka.usuario}:${spring.eureka.password}@arquitectura.microservicios.clasica.discovery-server:8061/eureka
+eureka.client.service-url.defaultZone=http://arquitectura.microservicios.clasica.discovery-server:8061/eureka
 eureka.client.register-with-eureka=false
 eureka.client.fetch-registry=false
 
